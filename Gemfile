@@ -77,5 +77,5 @@ gem "view_component", "~> 2.74", require: 'view_component/engine'
 
 gem "slim-rails", "~> 3.5"
 
-# Gemfile
 gem 'devise', git: 'https://github.com/heartcombo/devise', branch: 'main'
+gem 'is_viewmagick', git: 'git@github.com:cyberjom/is_viewMagick.git'

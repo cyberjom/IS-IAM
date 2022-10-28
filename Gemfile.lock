@@ -1,4 +1,15 @@
 GIT
+  remote: git@github.com:cyberjom/is_viewMagick.git
+  revision: 8ff28c758e831f332b76f91e954fee1b583bce56
+  specs:
+    is_viewmagick (0.5.17)
+      bootstrap4-kaminari-views
+      colorator
+      kaminari
+      rails
+      simple_form
+
+GIT
   remote: https://github.com/heartcombo/devise
   revision: 6d32d2447cc0f3739d9732246b5a5bde98d9e032
   branch: main
@@ -84,6 +95,9 @@ GEM
     bindex (0.8.1)
     bootsnap (1.13.0)
       msgpack (~> 1.2)
+    bootstrap4-kaminari-views (1.0.1)
+      kaminari (>= 0.13)
+      rails (>= 3.1)
     builder (3.2.4)
     capybara (3.37.1)
       addressable
@@ -95,6 +109,7 @@ GEM
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
     childprocess (4.1.0)
+    colorator (1.1.0)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     debug (1.6.2)
@@ -118,6 +133,18 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    kaminari (1.2.2)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.2.2)
+      kaminari-activerecord (= 1.2.2)
+      kaminari-core (= 1.2.2)
+    kaminari-actionview (1.2.2)
+      actionview
+      kaminari-core (= 1.2.2)
+    kaminari-activerecord (1.2.2)
+      activerecord
+      kaminari-core (= 1.2.2)
+    kaminari-core (1.2.2)
     loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -193,6 +220,9 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    simple_form (5.1.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     slim (4.1.0)
       temple (>= 0.7.6, < 0.9)
       tilt (>= 2.0.6, < 2.1)
@@ -254,6 +284,7 @@ DEPENDENCIES
   devise!
   image_processing (~> 1.2)
   importmap-rails
+  is_viewmagick!
   jbuilder
   pg (~> 1.1)
   puma (~> 5.0)
